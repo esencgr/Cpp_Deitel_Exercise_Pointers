@@ -6,7 +6,7 @@ int main(){
     int *a_ptr;  // a is a pointer to an integer.
 
     a = 7;
-    a_ptr = &a;
+    a_ptr = &a;   // The address of a is assigned to a_ptr..
 
     cout << "adress of int a: " << &a << endl;
     cout << "adress of variable a_ptr: " << a_ptr << endl << endl;
