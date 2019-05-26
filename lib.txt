@@ -1,0 +1,12 @@
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+#include <iomanip>
+#include <string>
+#include <cmath>
+#include <algorithm>
+#include <iostream>
+using namespace std;
+int main(){
+
+}
