@@ -25,7 +25,7 @@ int main (){
 
     // it is possible that a lot of returned value in functions with call by reference.
     call_reference ( p, q, r );
-    cout << *p << *q << * r << endl;
+    cout << *p << *q << *r << endl;
 
     return 0;
 }
