@@ -9,13 +9,10 @@ int main (){
     int number = 5, number2 = 10, number3 = 100;
     cout << "The number is : " << number << endl;
 
-    // This function can return only one value.
     cout << "Invocation by value ( 5^3 ): ";
     number = cube_value ( number );
     cout << number << endl;
 
-    // This function can return one or more value because process is actualized in the different address.
-    // So it is possible that return more than one value in a function with pointers.
     cout << "Invocation by reference ( 10^3 & 100^3 ): ";
     cube_reference ( &number2, &number3 );
     cout << number2 << " " << number3 << endl;
