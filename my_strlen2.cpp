@@ -8,6 +8,7 @@ int main(){
 
     char str[ 30 ];
     cin.getline ( str, 30 );
+    
     int size = my_strlen ( str );
     cout << "The string is include " <<  size << " character " << endl;
 
