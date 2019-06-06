@@ -8,7 +8,7 @@ int call_reference ( int *, int *, int * );
 
 int main (){
 
-    int p = 10, q = 20, r = 30;   // memory location is necessary for not getting of segmentation fault.
+    int p = 10, q = 20, r = 30;   // memory allocation is necessary for not getting of segmentation fault.
 
     // this function means is basically that variables copy.
     call_value ( p );             // this code return 10.
