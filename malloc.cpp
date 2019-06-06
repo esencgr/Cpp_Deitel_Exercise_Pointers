@@ -10,8 +10,8 @@ int f ( int *p ){
 
 int main(){
 
-    /* The 'arr' is a 3-dimensional array and in 3 integer size allocating memory.
-    This value is different of each opeating sys.(64 bit - 32 bit)*/
+    /*The 'arr' is a 3-dimensional array and the '*p' pointer is allocates memory of 3 integer size .
+    This value is different for each operating sys.(64 bit - 32 bit)*/
     int arr[ 3 ];
     int *p = ( int* )malloc( sizeof( int ) * 3 );
 
@@ -20,16 +20,16 @@ int main(){
     p[ 2 ] = 3;
     cout << "p[] : " << p[ 0 ] << " " << p[ 1 ] << " " << p[ 2 ] << endl;
 
-    /* In an integer size allocating memory and defined a value of this pointer.*/
+    /* The'*q' pointer is allocates memory of an integer size and defined a value of this pointer.*/
     int *q = ( int* )malloc( sizeof( int ));
     *q = 50;
     cout << "first output : " << *q << endl;
 
-    /* The pointer is send to function. And changes pointers values*/
+    /* The pointer is send to function. And changes pointer's values*/
     f( q );
-    cout << "function1 output : " << *q << endl;     
+    cout << "function1 output : " << *q << endl;
 
-    /* Z variable is an initiasl value. And this is a pragmatic approach not using malloc*/
+    /* Z variable has initiasl value. And this is a pragmatic approach not using malloc*/
     int z = 20;
     cout << "second output : " << z << endl;
     f( &z );
