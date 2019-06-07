@@ -30,10 +30,10 @@ int main(){
 
     return 0;
 }
-/* These functions are use pointers and fixed size variable.
-   And changed function must access in the bubble function's array's elemnts.
-   For this reason we can uses call by reference. If we were not used a pointer
-   in these functions, we cant access the elements of array..*/
+/* These functions are use pointers and fixed size variable.And changed function
+   must access in the bubble function's array's elemnts. For this reason we can
+   uses call by reference. If we were not used a pointer in these functions, we
+   cant access the elements of array..*/
 void bubble( int *arr, const int size ){
     //void change( int *, int * );
     for ( int i = 0;  i < size-1;  i++){
@@ -49,10 +49,10 @@ void change( int *e1_ptr, int *e2_ptr ){
     *e2_ptr = temp;
 }
 
-/* These function are use a array and fixed size variable.
-   And changed function must access in the bubble function's array's elemnts.
-   We did not use the pointer in these functions.We could'nt access the elements
-   of array. And we couldnt set the array with order..*/
+/* These function are use a array and fixed size variable.And changed function
+   must access in the bubble function's array's elements. We did not use the
+   pointer in these functions.We could'nt access the elements of array. And we
+   couldn't set the array with order..*/
 
 void bubble_2 ( int arr[], const int size ){
     for ( int i = 0;  i < size-1;  i++){

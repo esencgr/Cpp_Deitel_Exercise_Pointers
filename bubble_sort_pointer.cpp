@@ -26,10 +26,10 @@ int main(){
     return 0;
 }
 
-/* This function is uses a pointer and fixed size variable.
-   And changed function must access in the bubble function's array's elemnts.
-   For this reason we can uses call by reference. If we were not used a pointer
-   in these functions, we cant access the elements of array..*/
+/* This function is uses a pointer and fixed size variable.And changed function
+   must access in the bubble function's array's elemnts.For this reason we can
+   uses call by reference. If we were not used a pointer in these functions, we
+   cant access the elements of array..*/
 
 void bubble( int *arr, const int size ){
     void change( int *, int * );
