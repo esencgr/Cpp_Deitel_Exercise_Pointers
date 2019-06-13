@@ -1,4 +1,4 @@
-/* Get numbers by user. It is possible that 3 following solutions.
+/* Get numbers by user. It is possible that 4 following solutions.
    Solution 0: Classical method
    Solution 1: With an array
    Solution 2: With dynamic memory
