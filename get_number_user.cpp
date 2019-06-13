@@ -22,9 +22,9 @@ int main(){
     cout << a << b << c << d << e;
 
     /*
-       In the other solutions in the below are guaranteed that this variables sequential locate in RAM.
-       We know this variables addresses and these addresses are sequential. We can decides
-       variables locate in ram by ourselves.
+       In the other solutions in the below are guaranteed that this variables sequential
+       locate in RAM.We know this variables addresses and these addresses are sequential.
+       We can decides variables locate in RAM by ourselves.
     */
     // Solution 1 : With an array
     cout << "\nWith an array method elements: ";
