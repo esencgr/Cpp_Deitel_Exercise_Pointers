@@ -37,7 +37,7 @@ int main(){
     for ( int i = 0;  i < 3;  i++)
         cout << a[ i ] << " ";
 
-    cout << "\n sum of array element --> " << sum ( a, 3 ) << endl;
+    cout << "\n sum of array element --> " << sum( a, 3 ) << endl;
 
     return 0;
 }

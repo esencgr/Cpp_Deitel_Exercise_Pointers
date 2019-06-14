@@ -11,7 +11,7 @@ using namespace std;
 // This function is calculate the difference of max and min elements of an array
 int diff( int *a, int size){
    // for reach the size of  array --> sizeof( array ) / sizeof( int )
-   // size = sizeof ( a ) / sizeof( int ) 
+   // size = sizeof( a ) / sizeof( int ) 
    int max = *a;      // *a = a[ 0 ];
    int min = *a;      // *a = a[ 0 ];
 
