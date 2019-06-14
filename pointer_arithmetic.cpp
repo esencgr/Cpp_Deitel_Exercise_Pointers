@@ -9,7 +9,9 @@
         adresses-->   [3000]     [3004]     [3008]  ....
         vptr ----->   v[ 0 ] //  v[ 1 ] //  v[ 2 ]  ....
         *vptr ---->     0    //    1    //    2     ....
- */
+
+        vptr += 4  ->  3016 --> (3000 + 4 * 4(byte for int))
+*/
 #include <iostream>
 using namespace std;
 
