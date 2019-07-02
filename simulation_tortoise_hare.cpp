@@ -14,9 +14,9 @@ void print_move( const int * const, const int *const );
 void message( const int, const int , const int);
 
 int main(){
+  
     srand(time ( 0 ));
     int rabbit = 1, turtoise = 1, timer =0;
-
 
     while ( rabbit != RACE_END && turtoise != RACE_END ){
         rabbit_move( &rabbit );
@@ -126,7 +126,7 @@ void message( const int rabbit, const int turtoise, const int timer ){
        cout << " WINNER IS RABBIT !! " << endl;
 
    cout << " RACE TIME " << timer << "sec." << endl;
-   
+
 }
 
 // void print_move( const int * const rabbit_ptr, const int *const turtoise_ptr){
