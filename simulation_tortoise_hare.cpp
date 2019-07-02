@@ -32,6 +32,7 @@ int main(){
 void rabbit_move( int * const rabbit_ptr ){
 
     int dis = 1 + rand( ) % 10;
+    
     if ( dis >= 3 && dis <= 4 )                    // big forward move
         *rabbit_ptr += 9;
     else if ( dis == 5 )                           // slip back move
@@ -48,6 +49,7 @@ void rabbit_move( int * const rabbit_ptr ){
 
 }
 void turtoise_move( int * const turtoise_ptr ){
+
     int dis = 1 + rand( ) % 10;
 
     if ( dis >= 1 && dis <= 5 )                    // fast forward move
