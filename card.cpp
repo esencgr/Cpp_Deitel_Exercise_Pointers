@@ -1,4 +1,5 @@
-/* Mix and distribute a 52 card deck with optimized.*/
+/* Cpp DEITEL EXERCISE 7.16
+Mix and distribute a 52 card deck with optimized.*/
 #include <iostream>
 #include <ctime>
 #include <cstdlib>

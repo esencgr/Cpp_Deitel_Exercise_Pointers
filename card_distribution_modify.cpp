@@ -1,4 +1,5 @@
-/* Mix and distribute a 10 card deck.*/
+/* Cpp DEITEL EXERCISE 7.15
+ Mix and distribute a 10 card deck.*/
 #include <iostream>
 #include <ctime>
 #include <cstdlib>

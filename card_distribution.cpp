@@ -1,4 +1,5 @@
-/* Mix and distribute a 52-card deck.*/
+/* Cpp DEITEL EXERCISE 7.14
+ Mix and distribute a 52-card deck.*/
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
