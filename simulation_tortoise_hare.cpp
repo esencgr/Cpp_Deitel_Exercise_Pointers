@@ -32,7 +32,7 @@ int main(){
 void rabbit_move( int * const rabbit_ptr ){
 
     int dis = 1 + rand( ) % 10;
-    
+
     if ( dis >= 3 && dis <= 4 )                    // big forward move
         *rabbit_ptr += 9;
     else if ( dis == 5 )                           // slip back move
@@ -66,6 +66,7 @@ void turtoise_move( int * const turtoise_ptr ){
 
 }
 void print_move( const int * const rabbit_ptr, const int *const turtoise_ptr){
+
     char arr[ RACE_END ] = {'0'}, arr1[ RACE_END ] = {'0'}, arr2[ RACE_END ] = {'0'};
 
     if ( *rabbit_ptr == *turtoise_ptr ){
@@ -118,12 +119,14 @@ void print_move( const int * const rabbit_ptr, const int *const turtoise_ptr){
 }
 
 void message( const int rabbit, const int turtoise, const int timer ){
+
    if ( turtoise >= rabbit )
-      cout << " WINNER IS TURTOISE !! " << endl;
+       cout << " WINNER IS TURTOISE !! " << endl;
    else
-      cout << " WINNER IS RABBIT !! " << endl;
+       cout << " WINNER IS RABBIT !! " << endl;
 
    cout << " RACE TIME " << timer << "sec." << endl;
+   
 }
 
 // void print_move( const int * const rabbit_ptr, const int *const turtoise_ptr){
