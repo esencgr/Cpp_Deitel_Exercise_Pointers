@@ -1,6 +1,6 @@
 /*
 Cpp DEITEL EXERCISE 7.17
-Mix and distribute a 52 card deck with optimized.
+SIMULATION THE MOVE OF RABBIT AND TURTLE.
 */
 #include <iostream>
 #include <ctime>
