@@ -7,14 +7,13 @@
 #define RACE_END 70
 using namespace std;
 
-
 void rabbit_move( int * const );
 void turtoise_move( int * const );
 void print_move( const int * const, const int *const );
 void message( const int, const int , const int);
 
 int main(){
-  
+
     srand(time ( 0 ));
     int rabbit = 1, turtoise = 1, timer =0;
 
