@@ -9,7 +9,7 @@ void copy2( char[], const char[]);
 int main(){
 
     const char *string2 = "HELLO USER";
-    char *string1 = (char*) malloc ( sizeof(char) * sizeof(*string2) );
+    char *string1 = (char*) malloc ( sizeof(char) * sizeof(* string2) );
 
     const char string4[] = "CGR ESEN";
     char string3[ sizeof(string4) ];

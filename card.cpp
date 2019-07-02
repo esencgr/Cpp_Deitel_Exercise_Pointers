@@ -1,4 +1,4 @@
-/* Cpp DEITEL EXERCISE 7.16
+/* Cpp DEITEL EXERCISE 7.16-7.20
 Mix and distribute a 52 card deck with optimized.*/
 #include <iostream>
 #include <ctime>
