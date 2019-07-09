@@ -1,4 +1,5 @@
 /*
+Cpp DEITEL EXERCISE 7.24
 quick sort algorithm
 */
 #include <iostream>

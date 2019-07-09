@@ -1,4 +1,4 @@
-// Exercise 5.25 Solution
+// Cpp DEITEL EXERCISE 7.25
 // This solution assumes that there is only one
 // entrance and one exit for a given maze, and
 // these are the only two zeroes on the borders.
