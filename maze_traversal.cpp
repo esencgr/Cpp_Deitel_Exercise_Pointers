@@ -5,12 +5,11 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-
 using namespace std;
 
 enum Direction { DOWN, RIGHT, UP, LEFT };
 const int row = 10, col = 10;       // starting coordinate for maze
-// const int MAX_DOTS = 100; // maximum possible dots for maze
+// const int MAX_DOTS = 100;        // maximum possible dots for maze
 
 void maze_traversal( char[ ][ col ], const int, const int, int, int, int );
 void maze_generate( char [ ][ col ], int *, int * );
@@ -166,8 +165,6 @@ bool coord_edge( int x, int y ){
     else
         return false;
 }
-
-
 
 void print( const char maze[ ][ col ] ){
     for ( int x = 0; x < row; x++ ){
