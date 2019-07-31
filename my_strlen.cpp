@@ -4,13 +4,18 @@
 using namespace std;
 
 int my_strlen ( const char* );
-
+int my_strlen2 ( char * );
 int main(){
 
     char str[ 30 ];
     cin.getline ( str, 30 );
+
     int size = my_strlen ( str );
-    cout << "The string is include " <<  size << " character " << endl;
+    cout << "1.The string is include " <<  size << " character " << endl;
+
+    int size1 = my_strlen2 ( str );
+    cout << "2.The string is include " <<  size1 << " character " << endl;
+
 
     return 0;
 }
@@ -23,4 +28,12 @@ int my_strlen ( const char *s_ptr ){         // the function hasn't got first va
          count++;
 
       return count;
+}
+
+int my_strlen2( char *str ){
+    int count = 0;
+    while ( *str++ != '\0' ){
+        count++;
+    }
+    return count;
 }
